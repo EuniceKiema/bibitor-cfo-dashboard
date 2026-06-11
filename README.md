@@ -22,12 +22,6 @@ The dashboard addresses the following CFO requests:
 | StoreLocations.csv | Store details with square footage |
 | CountyDemographics.csv | County-level demographic data |
 
-## Data Model
-![Data Model](data_model_screenshot.png)
-
-## Dashboard
-![CFO Dashboard](dashboard_screenshot.png)
-
 ## Key Measures Created
 - Total Sales = SUMX(FactSales, Units × AverageSalesPrice)
 - Total Cost = SUMX(FactSales, Units × RELATED(PurchasePrice))
